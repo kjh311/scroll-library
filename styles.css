@@ -1,5 +1,15 @@
 body{
-  background-color: lightblue;
+  background-color: black;
+  text-align: center;
+  background-image: url('http://images.vectorhq.com/images/premium/previews/152/music-theme-seamless-pattern-with-notes-vertical-composition-repeating-vector-background-with-hand-drawn-lines-textures_152324903.jpg');
+    background-repeat: repeat-y;
+    /*width: 100%;*/
+    background-position: 50% 0;
+}
+#banner{
+  margin-bottom: 500px;
+  margin-top: 500px;
+  /*margin: 0 auto;*/
 }
 
 div{
@@ -7,21 +17,40 @@ div{
   /*-webkit-animation-delay: 2s;*/
   /*-webkit-animation-iteration-count: infinite;*/
 }
+#cat{
+  /*height: 300px;*/
+  margin-bottom: 300px;
+}
+/*#fish{
+  margin-top: 500px;
+}*/
+#girl, #monkey{
+  margin-bottom: 500px;
+}
 #input-box{
   -webkit-animation-duration: 3s;
 }
+#face{
+  margin-top: 500px;
+  margin-bottom: 500px;
+}
 .divy{
-  width: 50px;
-  height: 50px;
+  width: 250px;
+  height: 250px;
+  background-color: white;
   border: 2px solid black;
+  margin: 0 auto;
 }
 .div2{
-  margin-top: 1000px;
-  margin-bottom: 1000px;
+  margin-top: 500px;
+  margin-bottom: 500px;
   width: 50px;
   height: 50px;
   border: 2px solid black;
 }
 .no-opacity{
   opacity: 0;
+}
+#penguin{
+  margin-bottom: 500px;
 }
