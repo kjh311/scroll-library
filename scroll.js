@@ -30,6 +30,7 @@ $( document ).ready(function() {
       var rubberBand      = "animated rubberBand";
       var rotateOut       = "animated rotateOut";
       var jello           = "animated jello";
+      var fadeOut         = "animated fadeOut";
 
 
 
@@ -69,7 +70,7 @@ $( document ).ready(function() {
         // },{offset:'10%'})
 
         $('#monkey').waypoint(function(){
-            $('#monkey').addClass(rotateOut).one(vendor, function(){
+            $('#monkey').addClass(fadeOut).one(vendor, function(){
               // $(this).removeClass(flip);
             });
         },{offset:'30%'})
