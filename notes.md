@@ -1,4 +1,4 @@
-tutorials:
+<!-- tutorials: -->
 https://cdnjs.com/libraries/wow
 https://github.com/daneden/animate.css
 http://mynameismatthieu.com/WOW/docs.html
