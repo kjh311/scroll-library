@@ -6,6 +6,8 @@ $( document ).ready(function() {
     $("body").css("background-position","50% " + ($(this).scrollTop() / 2) + "px");
 });
 
+  // Parallax looks bad on mobile!
+
 
 // SCROLLING / ANIMATION:
     $(function(){
