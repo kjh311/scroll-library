@@ -61,7 +61,7 @@ $( document ).ready(function() {
             $('#girl').removeClass('no-opacity').addClass(bounceInRight).one(vendor, function(){
               $(this).removeClass(bounceInRight);
             });
-        },{offset:'70%'})
+        },{offset:'50%'})
 
         // $('#girl').waypoint(function(){
         //     $('#girl').addClass(bounceOutLeft).addClass('no-opacity');
